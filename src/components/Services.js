@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from "react-icons/fa";
+import {
+  FaCocktail,
+  FaHamburger,
+  FaShuttleVan,
+  FaThermometerThreeQuarters
+} from "react-icons/fa";
 
 import Title from "./Title";
 
@@ -9,23 +14,23 @@ export default class Services extends Component {
     services: [
       {
         icon: <FaCocktail />,
-        title: "free cocktails",
-        info: "Lorem ipsum dolor sit amet consecterua dipiscing"
+        title: "Complementary Cocktails",
+        info: "A wide array of spirits and beverages is available"
       },
       {
-        icon: <FaHiking />,
-        title: "endless hiking",
-        info: "Lorem ipsum dolor sit amet consecterua dipiscing"
+        icon: <FaHamburger />,
+        title: "Complementary Breakfast",
+        info: "Natural freshly made breakfast throughout your stay"
       },
       {
         icon: <FaShuttleVan />,
-        title: "free shuttle",
-        info: "Lorem ipsum dolor sit amet consecterua dipiscing"
+        title: "Free Shuttle Van Service",
+        info: "Transportation to and from the airport"
       },
       {
-        icon: <FaBeer />,
-        title: "imported beer",
-        info: "Lorem ipsum dolor sit amet consecterua dipiscing"
+        icon: <FaThermometerThreeQuarters />,
+        title: "Temperature Controled Rooms",
+        info: "State of the art temperature controls"
       }
     ]
   };
